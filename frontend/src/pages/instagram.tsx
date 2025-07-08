@@ -1,6 +1,7 @@
 import { Sparkles } from "lucide-react";
 
 import Footer from "../components/Footer";
+import InstagramHero from "../components/InstagramHero";
 
 const instagram = () => {
   return (
@@ -47,14 +48,14 @@ const instagram = () => {
         </div>
       </div>
 
-      <div className="text-white min-h-screen">
+      {/* <div className="text-white min-h-screen">
         <div>a</div>
         <div>a</div>
         <div>a</div>
         <div>a</div>
         <div>a</div>
-      </div>
-
+      </div> */}
+      <InstagramHero/>
       <Footer />
     </div>
   );
