@@ -1,0 +1,41 @@
+{
+  "name": "genai-image-generator-backend",
+  "version": "1.0.0",
+  "description": "Backend for GenAI Image Generator using AWS Bedrock",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "build": "echo 'No build step required for Node.js'"
+  },
+  "keywords": ["genai", "image-generation", "aws", "bedrock", "hackathon"],
+  "author": "GenAI Hackathon Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "@aws-sdk/client-bedrock-runtime": "^3.470.0",
+    "@aws-sdk/client-s3": "^3.470.0",
+    "@aws-sdk/s3-request-presigner": "^3.470.0",
+    "uuid": "^9.0.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.11.0",
+    "sharp": "^0.33.0",
+    "aws-sdk": "^2.1531.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
