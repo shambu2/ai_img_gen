@@ -1,15 +1,6 @@
-import {
-  
-  FileVideo,
-  
-  Sparkles,
- 
-} from "lucide-react";
-import React from "react";
+import { FileVideo, Sparkles } from "lucide-react";
 
 const Youtube = () => {
- 
-
   return (
     <div className="min-h-screen bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto p-6">
@@ -24,17 +15,18 @@ const Youtube = () => {
               </div>
 
               <div className="border-2 border-dashed border-slate-600 rounded-xl p-8 text-center">
-                
                 <label className="bg-blue-500 w-40 mx-auto rounded-4xl flex justify-center items-center pl-10 text-2xl font-semibold">
-                     Image
-                    <input type="file"  className="opacity-0 w-12 h-12 mx-auto mb-4 text-slate-400" />
+                  Image
+                  <input
+                    type="file"
+                    className="opacity-0 w-12 h-12 mx-auto mb-4 text-slate-400"
+                  />
                 </label>
-                
+
                 <p className="text-lg font-medium mb-2">Drop your image here</p>
                 <p className="text-sm text-slate-400 mb-4">
                   or click to browse
                 </p>
-              
               </div>
             </div>
 
