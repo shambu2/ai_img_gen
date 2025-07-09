@@ -237,7 +237,7 @@ const Homes = () => {
               </div>
 
               <button
-                onClick={() => handleNavigation("instagram")}
+                onClick={() => handleNavigation("youtube")}
                 className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-4 px-6 rounded-xl transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center space-x-2"
               >
                 <Sparkles className="h-5 w-5" />

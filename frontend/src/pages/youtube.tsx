@@ -1,10 +1,11 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import { Sparkles } from 'lucide-react'
+import React from "react";
+import Footer from "../components/Footer";
+import { Sparkles } from "lucide-react";
+import Youtube from "../components/Youtube";
 
 const youtube = () => {
   return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <div className=" ">
         <div className="relative z-10 px-6 py-6">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -47,17 +48,11 @@ const youtube = () => {
         </div>
       </div>
 
-      <div className="text-white min-h-screen">
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-      </div>
+      <Youtube/>
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default youtube
+export default youtube;
